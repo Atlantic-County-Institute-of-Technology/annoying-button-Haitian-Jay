@@ -2,7 +2,7 @@
     border-radius: 50%;
     height: 250px;
     width: 250px;
-    border-color: black;
+    color: whitesmoke;
     background-color: red;
     position: absolute;
     top: 100px;
@@ -11,6 +11,10 @@
     text-shadow: 1px 0px 5px;
     font-size: 25px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .button2 {
@@ -27,5 +31,13 @@
     font-size: 25px;
     cursor: pointer;
     display: none;
-    
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

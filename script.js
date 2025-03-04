@@ -126,12 +126,32 @@ function annoy() {
         text.innerHTML = "just use the other button please";
     }
 
-    if(clicks == 85) {
-        text.innerHTML = "came to tell me how great my button is?";
+    if(clicks == 130) {
+        text.innerHTML = "I have a new idea on how to stop you from clicking me";
     }
 
-    if(clicks == 85) {
-        text.innerHTML = "came to tell me how great my button is?";
+    if(clicks == 135) {
+        text.innerHTML = "try clicking me now";
+    }
+
+    if(clicks == 140) {
+        text.innerHTML = "there you go";
+    }
+
+    if(clicks == 145) {
+        text.innerHTML = "there you go";
+    }
+
+    if(clicks == 150) {
+        text.innerHTML = "there you go";
+    }
+
+    if(clicks == 155) {
+        text.innerHTML = "there you go";
+    }
+
+    if(clicks == 160) {
+        text.innerHTML = "there you go";
     }
 
 }  
