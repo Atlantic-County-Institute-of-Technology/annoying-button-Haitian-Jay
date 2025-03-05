@@ -14,7 +14,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    animation: move_button1 2s linear infinite;
+}
+
+@keyframes move_button1 {
+    0% {
+        transform: translateX(95px);
+    }
+    100% {
+        transform: translateX(95x);
+    }
 }
 
 .button2 {
