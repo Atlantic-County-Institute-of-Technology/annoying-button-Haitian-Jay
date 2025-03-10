@@ -78,7 +78,7 @@ function annoy() {
 
     if(clicks == 75) {
         text.innerHTML = "There you go";
-        // button2.style.display = "visible";
+        button2.style.display = "visible";
         button2.style.display = "block";
     }
 
@@ -130,8 +130,9 @@ function annoy() {
         text.innerHTML = "I have a new idea on how to stop you from clicking me";
     }
 
-    if(clicks == 135) {
+    if(clicks == 5) {
         text.innerHTML = "try clicking me now";
+        button1.classList.add("move_button1")
     }
 
     if(clicks == 140) {
